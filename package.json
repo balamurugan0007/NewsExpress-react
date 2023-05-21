@@ -1,0 +1,23 @@
+{
+  "name": "marvel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-animations": "^1.0.0",
+    "react-axios": "^2.0.6",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "0.9.5",
+    "redux": "^4.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
