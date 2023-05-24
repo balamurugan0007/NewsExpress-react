@@ -1,0 +1,50 @@
+
+
+
+
+/* news pages */
+
+#news-2-col{
+    height: 100vh;
+    overflow-y: scroll;
+}
+#news_navbar_box{
+   
+    background-color:#363C70 ;
+    height: 100vh;
+}
+#news_navbar_box_item{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: italic;
+    font-size: large;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#news_navbar_box_item :hover{ 
+    border-bottom: 2px solid;
+    border-color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #news_navbar_box{
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        height:auto;
+    }
+    #news_navbar_box ::-webkit-scrollbar{
+        display:none;
+    }
+
+    #news_navbar_box {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+    #news_navbar_box_item :hover{ 
+        border-bottom: 2px solid;
+        border-color: red;
+    }
+}

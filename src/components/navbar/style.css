@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Inter:wght@400;500&family=Lora:ital,wght@1,500&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto&display=swap');
+
+#navbar1-brand{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 40px;
+}
+#navbar1-brand span{
+    color:#C9293A;
+}
+#navbar1-ul a{
+    font-size: 16px;
+    font-family: poppins;
+   color: #363C70;
+    opacity: .8;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+#navbar1-ul{
+    display: flex;
+    
+    
+}#navbar1-ul li{
+    list-style: none;
+   
+}#navbar1{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.nav span{
+    color: #EC1428;
+}
+
+#navbar1-ul a:hover{
+    color:#C9293A;
+    border-bottom: 2px solid;
+    
+}
+
+#navbar2{
+    background-color: #241C56;
+}
+#navbar2 button{
+   background-color: #848181;
+    font-family: Poppins;
+    font-weight: 400;
+    color: rgb(231, 222, 222);
+    
+}#navbar2 h2{
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #navbar2-items{
+        display:list-item;
+    }
+}

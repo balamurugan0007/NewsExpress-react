@@ -1,0 +1,29 @@
+
+
+#carosal{
+    opacity: .8;
+    
+}
+#carosal img{
+ height: 500px;
+}
+#feedback-heading{
+  font-family: Inter;
+  font-weight: bolder;
+  color: #C9293A;
+  
+}
+
+
+/* news car*/
+#newscard-card a{
+  text-decoration: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+   #carosal img{
+        height: 300px;
+       }
+
+  }

@@ -1,11 +1,17 @@
 import React from 'react'
-import Navbar from './navbar/Navbar'
+
+import Navbar1 from './navbar/Navbar1'
+import Carousal from './components/Carousal'
+import Feedback from './components/Feedback'
+import Home from './pages/Home'
 
 const Main = () => {
   return (
     <div>
-        <Navbar/>
-        <h2 className='text-center'>hello</h2>
+        <Navbar1/>
+        <Carousal/>
+        <Home/>
+        <Feedback/>
       
     </div>
   )
